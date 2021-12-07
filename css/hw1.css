@@ -1,0 +1,29 @@
+header {
+    background-color: #bfd7ea;
+}
+
+h1, h2 {
+    text-transform: uppercase;
+}
+
+h1 {
+    color: #0b3954;
+    text-align: center;
+}
+
+h2 {
+    color: #ff6663;
+}
+
+.right {
+    background-color: #e0ff4f;
+}
+
+nav a {
+    color: #fefffe;
+    background-color: #0B3954;
+}
+
+aside img {
+    display: none;
+}
