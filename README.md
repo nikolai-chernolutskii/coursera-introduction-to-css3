@@ -52,15 +52,22 @@
 ### Getting started:
 You will use the same code as you used for Assignment One.  I would recommend that you save a copy of your stylesheet for backup.  The html is all still the same.
 
-### Steps:
+### Steps*:
 1. Download the image from [here](http://intro-webdesign.com/CSS/assignment-2/images/flywheel.jpg) and put it into a folder named images.
 2. Style the following:
    * The body should have padding and margin
+      * You can also adjust the size of the text, but this is not required
    * The header should have a background color, background image (using a local image), and padding
-   * The navigation links (and only the links in the navigation)  should be styled with a new display, margin, border-radius, text-decoration, and padding
-   * The link to the current page should be styled differently from the other links (using class = "active')
-   * The sections should be next to each other, not one on top of the other.
+   * H1
+      * Change the font color
+      * Increase the font size
+   * The navigation links (and only the links in the navigation) should be styled with a new display, margin, border-radius, text-decoration (*remove the underline*), and padding
+   * The link to the current page should be styled differently from the other links (using class = "active"). *Use the background color and font color*
+   * The .left and .right classes should be next to each other, not one on top of the other.
+   * *Change the background color for the left class*
    * The images should be part of the page now.  In addition, they should have a border, be centered horizontally, and have vertical (top/bottom) space between them and the other images.
+
+**Italicized instructoins are taken from the course video (see the link below)*
 
 ***I have included a video you can watch to see a live demo of this new site.  You can watch it in the next video, or link directly [here](https://www.coursera.org/learn/introcss/lecture/VQgU9/02-08-optional-homework-description)***
 
