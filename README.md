@@ -84,3 +84,40 @@ After
 ![Teams-after](https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/IK9Pbm-NEeWUEw5B5sLehQ_592503570875353c676e5d53a9e6dcf4_a2teams.jpg?expiry=1639180800000&hmac=vfCxALvTDMFR5n_UCgdsI_6o9RlUjM1fH8DZEfEblvw)
 
 ![History-after](https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/Q7kJ32-NEeW5kRKmUcDQLQ_35474ed7d7bad5e60a6ee47d58bf4436_a2history.jpg?expiry=1639180800000&hmac=PdKOAp6fSVYkdRaGV8ee2fJcSc_zpa_sPZ4F6ryHYHs)
+
+## Week 4 Assignment
+
+### Objectives
+
+1. Create a style sheet and link it to the html files.  (Without changing the html.)
+2. Style the sheet using the properties we covered in lecture.  There is a particular emphasis on pseudo-elements and pseudo-classes.  There is an opportunity to use some properties we didn’t cover in class.  For instance, we want to style on the first element of each row to be left-aligned.  The rest should be centered.
+
+### Getting started:
+You will use the same code as you used for Assignment Two.  I would recommend that you save a copy of your stylesheet for backup.  The html is all still the same.
+
+### Steps*:
+
+#### Style the following:
+* The table should be styled using at least four  properties
+   * *Font - multiple families, size, weight and line-height*
+   * *Width - don't take up the entire space*
+   * *Margin - center the table*
+* The table headings should have a thicker bottom border with the top two corners rounded, a background color *(try to use a gradient, you will need some browser prefixes)*, and at least one other property
+* Style the table so that the text in the first column is left-aligned and the text in the other two columns is centered
+* Set the opacity of the table rows to a value between .6 and .8 (make sure it is still visible)
+* Change the opacity of a row when it is hovered over
+* The table elements <td> should be styled using at least four  properties *(In the video the instructions are to style the padding, the font color, the background color and set the border radius to 2px). Optional: use text-shadow*
+
+**Italicized instructoins are taken from the course video (see the link below)*
+
+***I have included a video you can watch to see a live demo of this new site.  You can watch it in the next video, or link directly [here](https://www.coursera.org/learn/introcss/lecture/SyQ0X/04-06-optional-homework-description***
+
+### Submission
+1. Submit your css file, we will still call it hw1.css.
+2. Use the peer grader to assess the work of your fellow students.  This third assignment may have a number of different options.  You can grade the assignment by eye, or else save the css and try applying it to the html files.
+
+Before
+![Teams-before](https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/IK9Pbm-NEeWUEw5B5sLehQ_592503570875353c676e5d53a9e6dcf4_a2teams.jpg?expiry=1639353600000&hmac=okEbePQdmTbasx1N7K46QnIJC1oCSpIaUOTbYuhI_gk)
+
+After
+![Teams-after](https://d3c33hcgiwev3.cloudfront.net/imageAssetProxy.v1/LAte42-OEeWZoQoMfkXBmw_72122faa2ba0b9a34495f15a54a5731a_fteams.jpg?expiry=1639353600000&hmac=TePYJAQy5H1TR-8-4RQ4WH_iRND60ntW5hs4dH8-LdY)
