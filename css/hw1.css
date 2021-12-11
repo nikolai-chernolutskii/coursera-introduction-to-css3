@@ -1,5 +1,3 @@
-
-
 body {
     margin: 0 auto;
     padding: 5px;
@@ -76,7 +74,7 @@ a.active:hover {
 
 main {
     display: grid;
-    grid-template-columns: 30% 70%;
+    grid-template-columns: 25% 75%;
     grid-template-rows: auto;
 }
 
@@ -86,14 +84,103 @@ aside a {
     text-align: center;
 }
 
+
 aside img {
     width: 70%;
     border: 3px solid #bbbbbb;
     margin-top: 20px;
     text-align: center;
+    filter: grayscale(60%);
+    transition: all .5s;
+}
+
+aside img:hover {
+    transform: scale(1.1);
+    filter: none;
 }
 
 aside a:last-of-type img {
     margin-bottom: 10px;
 }
 
+table {
+    margin: 30px auto 0;
+    width: 90%;
+    text-align: center;
+    border: 2px solid #918a8a;
+    border-spacing: 1px;
+    border-radius: 10px 10px 0 0;
+}
+
+tr, th, td {
+    transition: all, .5s;
+}
+
+tr {
+    line-height: 200%;
+}
+
+tr:first-child {
+    background: rgb(88, 200, 233);
+    background: -moz-linear-gradient(180deg, rgba(88, 200, 233, .8) 0%, rgba(87, 87, 179, .8) 26%, rgba(0, 212, 255, .8) 100%);
+    background: -webkit-linear-gradient(180deg, rgba(88, 200, 233, .8) 0%, rgba(87, 87, 179, .8) 26%, rgba(0, 212, 255, .8) 100%);
+    background: linear-gradient(180deg, rgba(88, 200, 233, .8) 0%, rgba(87, 87, 179, .8) 26%, rgba(0, 212, 255, .8) 100%);
+}
+
+tr:nth-child(2n) {
+    background-color: rgba(152, 152, 233, .8);
+}
+
+tr:nth-child(2n+1):not(tr:first-child) {
+    background-color: rgba(165, 165, 177, 0.8);
+}
+
+tr:hover {
+    opacity: .7;
+    cursor: default;
+}
+
+th {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 125%;
+    font-weight: 600;
+    color: #292926;
+    border-bottom: 2px solid black;
+}
+
+td {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 110%;
+    font-weight: 400;
+    color: #535351;
+    border-radius: 2px;
+}
+
+th,
+td {
+    padding: 5px;
+}
+
+th:hover,
+td:hover {
+    background-color: #e4c79b;
+}
+
+th:first-child,
+td:first-child {
+    width: 55%;
+    text-align: left;
+}
+
+th:nth-child(n+1) {
+    border-radius: 5px;
+}
+
+th:first-child {
+    border-radius: 10px 5px 5px 5px;
+}
+
+
+th:last-child {
+    border-radius: 5px 10px 5px 5px;
+}
