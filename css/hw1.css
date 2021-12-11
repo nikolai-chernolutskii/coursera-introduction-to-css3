@@ -105,7 +105,7 @@ aside a:last-of-type img {
 
 table {
     margin: 30px auto 0;
-    width: 90%;
+    max-width: 90%;
     text-align: center;
     border: 2px solid #918a8a;
     border-spacing: 1px;
@@ -144,6 +144,7 @@ th {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 125%;
     font-weight: 600;
+    font-style: italic;
     color: #292926;
     border-bottom: 2px solid black;
 }
